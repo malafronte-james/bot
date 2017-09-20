@@ -29,5 +29,5 @@ server.listen(port);
 
 function ping() {
   this.res.writeHead(200);
-  this.res.end("Hey, I'm Cool Guy.");
+  this.res.end("This is a test message from a bot, in development. In the future, I hope to give you a list of locations and their yelp ratings.");
 }
