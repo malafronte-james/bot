@@ -21,7 +21,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = cool();
+  botResponse = " Ignore this message: Currently am developing a Yelp Rating Grabber for Lunch that can be accessed in groupme.";
 
   options = {
     hostname: 'api.groupme.com',
