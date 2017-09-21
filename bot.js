@@ -21,8 +21,18 @@ function respond() {
 
 function yelpInfo() {
   var location;
+  var options = {
+    host: 'somesite.com',
+    port: 443,
+    path: '/some/path',
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    }
   
   location = "12";
+  
+  GET https://api.yelp.com/v3/businesses/search
 }
   
 
