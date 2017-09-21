@@ -9,6 +9,7 @@ function respond() {
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
+    yelpInfo();
     postMessage();
     this.res.end();
   } else {
@@ -17,6 +18,13 @@ function respond() {
     this.res.end();
   }
 }
+
+function yelpInfo() {
+  var location;
+  
+  location = "12";
+}
+  
 
 function postMessage() {
   var botResponse, options, body, botReq;
